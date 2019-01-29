@@ -62,7 +62,7 @@
 	<Weapon unlock_level="25">
 		<weapon id="kurz_919" based_on="schakal" CLIP_AMMO_MAX="15" NR_CLIPS_MAX="10" tactical_reload="1" texture_bundle_folder="mods" global_value="kurz_919">
 			<stats damage="65" spread="13" spread_moving="15" recoil="4" concealment="28"/>
-			<fire_mode_data fire_rate="0.1"/>
+			<fire_mode_data fire_rate="0.0666666666666667"/>
 			<AMMO_PICKUP>
 				<value_node value="3"/>
 				<value_node value="9"/>
