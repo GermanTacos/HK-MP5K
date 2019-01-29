@@ -1,7 +1,7 @@
 <materials version="3" group="weapon_mp5">
     <material name="mtr_mp5" render_template="generic_customizable:CUBE_ENVIRONMENT_MAPPING:DECAL_STICKER_UV2:DIFFUSE_TEXTURE:GRADIENTMAP:NORMALMAP:PATTERN_GRADIENTMAP:PATTERN_GRADIENTMAP_ANGLE_OFFSET:PATTERN_UV2:WEAR_TEAR_MASKING" unique="true" version="2">
-        <diffuse_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/handguard_ris_cc" mip="1"/>
-        <bump_normal_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/handguard_ris_nm" mip="1"/>
+        <diffuse_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/handguard_sp5k_cc" mip="1"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/handguard_sp5k_nm" mip="1"/>
         <diffuse_layer1_texture file="units/payday2_cash/safes/default/base_gradient/base_default_df"/>
         <diffuse_layer2_texture file="units/payday2_cash/safes/default/pattern_gradient/gradient_default_df"/>
         <diffuse_layer0_texture file="units/payday2_cash/safes/default/pattern/pattern_default_df"/>

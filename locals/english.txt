@@ -15,17 +15,10 @@
 	"bm_menu_handguard"     	   : "Handguard",
 	"bm_menu_handguard_plural"     : "Handguards",
 	
-	"bm_wp_wpn_fps_smg_kurz_919_hg_ris"      : "RIS Handguard",
-	"bm_wp_wpn_fps_smg_kurz_919_hg_sd"       : "SD Handguard",
-	"bm_wp_wpn_fps_smg_kurz_919_hg_slim"     : "Slimline Handguard",
-	"bm_wp_wpn_fps_smg_kurz_919_hg_vent"     : "Vented Handguard",
-	"bm_wp_wpn_fps_smg_kurz_919_hg_wood"     : "Wooden Handguard",
+	"bm_wp_wpn_fps_smg_kurz_919_hg_proto"    : "Prototype Foregrip",
+	"bm_wp_wpn_fps_smg_kurz_919_hg_sp5k"     : "SP5K Handguard",
 	
 	"bm_wp_wpn_fps_smg_kurz_919_tg_navy"     : "Navy Trigger Group",
-	
-	"bm_wp_wpn_fps_smg_kurz_919_st_solid"    : "Solid Stock",
-	"bm_wp_wpn_fps_smg_kurz_919_st_cap"      : "Stock Cap",
-	"bm_wp_wpn_fps_smg_kurz_919_st_wood"     : "Wooden Stock",
 	
 	"bm_wp_wpn_fps_smg_kurz_919_m_curve_30"  : "30 Round Curved Magazine",
 	"bm_wp_wpn_fps_smg_kurz_919_m_waffle_30" : "30 Round Waffle Magazine",

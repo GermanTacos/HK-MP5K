@@ -1,5 +1,5 @@
 <unit type="wpn" slot="1" >
-    <object file="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_sd" />
+    <object file="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_sp5k" />
     <extensions>
         <extension class="ScriptUnitData" name="unit_data" />
     </extensions>
