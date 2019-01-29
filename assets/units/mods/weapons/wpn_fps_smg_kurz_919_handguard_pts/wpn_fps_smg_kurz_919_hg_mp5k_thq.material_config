@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_mp5k">
+    <material name="mtr_mp5" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/body_mp5k_df" mip="1"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/body_mp5k_nm" mip="1"/>
+    </material>
+</materials>

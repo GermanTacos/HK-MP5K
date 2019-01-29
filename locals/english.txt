@@ -1,0 +1,34 @@
+{
+
+	"menu_l_global_value_kurz_919" : "This is a Custom Weapon!",
+	
+	"bm_w_kurz_919" : "MP5K",
+	
+	"bm_menu_receiver"      	   : "Receiver",
+	"bm_menu_receiver_plural"      : "Receivers",
+	"bm_menu_trigger"      		   : "Grip",
+	"bm_menu_trigger_plural"       : "Grips",
+	"bm_menu_rear_sight"    	   : "Rear Sight",
+	"bm_menu_rear_sight_plural"    : "Rear Sights",
+	"bm_menu_trigger_group" 	   : "Trigger Group",
+	"bm_menu_trigger_group_plural" : "Trigger Groups",
+	"bm_menu_handguard"     	   : "Handguard",
+	"bm_menu_handguard_plural"     : "Handguards",
+	
+	"bm_wp_wpn_fps_smg_kurz_919_hg_ris"      : "RIS Handguard",
+	"bm_wp_wpn_fps_smg_kurz_919_hg_sd"       : "SD Handguard",
+	"bm_wp_wpn_fps_smg_kurz_919_hg_slim"     : "Slimline Handguard",
+	"bm_wp_wpn_fps_smg_kurz_919_hg_vent"     : "Vented Handguard",
+	"bm_wp_wpn_fps_smg_kurz_919_hg_wood"     : "Wooden Handguard",
+	
+	"bm_wp_wpn_fps_smg_kurz_919_tg_navy"     : "Navy Trigger Group",
+	
+	"bm_wp_wpn_fps_smg_kurz_919_st_solid"    : "Solid Stock",
+	"bm_wp_wpn_fps_smg_kurz_919_st_cap"      : "Stock Cap",
+	"bm_wp_wpn_fps_smg_kurz_919_st_wood"     : "Wooden Stock",
+	
+	"bm_wp_wpn_fps_smg_kurz_919_m_curve_30"  : "30 Round Curved Magazine",
+	"bm_wp_wpn_fps_smg_kurz_919_m_waffle_30" : "30 Round Waffle Magazine",
+	"bm_wp_wpn_fps_smg_kurz_919_m_waffle_15" : "15 Round Waffle Magazine"
+	
+}

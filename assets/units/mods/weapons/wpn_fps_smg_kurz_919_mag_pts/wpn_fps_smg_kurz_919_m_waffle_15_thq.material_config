@@ -1,0 +1,10 @@
+<materials version="3" group="weapon_schakal">
+    <material name="mtr_mag_standard" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/waffle_30_df" mip="1"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/waffle_30_nm" mip="1"/>
+    </material>
+    <material name="mtr_bullet" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/waffle_30_df" mip="1"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/waffle_30_nm" mip="1"/>
+    </material>
+</materials>

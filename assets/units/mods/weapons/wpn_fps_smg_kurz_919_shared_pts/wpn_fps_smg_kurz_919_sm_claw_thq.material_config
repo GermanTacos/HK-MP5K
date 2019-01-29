@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_mp5">
+    <material name="mtr_mp5" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_shared_pts/scope_mount_claw_df" mip="1"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_fps_smg_kurz_919_shared_pts/scope_mount_claw_nm" mip="1"/>
+    </material>
+</materials>
