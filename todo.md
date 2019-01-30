@@ -1,1 +1,3 @@
--[ ] Fix the reload sounds
+-[x] Fix the reload sounds (Yup here I was thinking those sounds were custom nope that level of shit just had to be vanilla)
+-[ ] Test other sound mix for Full auto
+-[ ]

@@ -68,7 +68,7 @@
 				<value_node value="9"/>
 			</AMMO_PICKUP>
 			<sounds fire="kurz_919_fire" fire_single="kurz_919_fire" fire_auto="kurz_919_fire" use_fix="true">
-			<!--<reload wp_scar_clip_slide_out="wp_kurz_919_mag_slide_out"  wp_scar_clip_slide_in="wp_kurz_919_mag_slide_in"  wp_scar_lever_pull="wp_kurz_919_bolt_pull"  wp_scar_lever_release="wp_kurz_919_bolt_release"  wp_scar_mag_kurz="wp_kurz_919_mag_kurz"  />-->
+				<reload wp_schakal_mag_out="wp_kurz_919_mag_slide_out" wp_schakal_mag_in="wp_kurz_919_mag_slide_in" wp_schakal_bolt_back="wp_kurz_919_bolt_pull" wp_schakal_bolt_slap="wp_kurz_919_bolt_release"/>
 			</sounds>
 			<animations reload_name_id="schakal"/>
 		</weapon>
@@ -149,9 +149,9 @@
 			
 		</factory>
 		<stance>
-            <steelsight>
-            <!--<shoulders rotation="0 0 0 -1" translation="-10.71 -5.4 4.1"/>-->
-            </steelsight>
+			<steelsight>
+				<shoulders rotation="0.00174533 7.61543e-007 -0.000436332 -0.999998" translation="-7.89 13.459 0.7"/>
+			</steelsight>
 		</stance>
 	</Weapon>
 	
@@ -164,18 +164,16 @@
 		<sound id="wp_kurz_919_mag_slide_out" path="wp_kurz_919_mag_slide_out.ogg" prefix="third"/>
 		<sound id="wp_kurz_919_mag_slide_in"  path="wp_kurz_919_mag_slide_in.ogg" prefix="first"/>
 		<sound id="wp_kurz_919_mag_slide_in"  path="wp_kurz_919_mag_slide_in.ogg" prefix="third"/>
-		<sound id="wp_kurz_919_mag_kurz" 	   path="wp_kurz_919_mag_kurz.ogg" prefix="first"/>
-		<sound id="wp_kurz_919_mag_kurz" 	   path="wp_kurz_919_mag_kurz.ogg" prefix="third"/>
-		<sound id="wp_kurz_919_bolt_pull" 	   path="wp_kurz_919_bolt_pull.ogg" prefix="first"/>
-		<sound id="wp_kurz_919_bolt_pull" 	   path="wp_kurz_919_bolt_pull.ogg" prefix="third"/>
+		<sound id="wp_kurz_919_bolt_pull" 	  path="wp_kurz_919_bolt_pull.ogg" 	  prefix="first"/>
+		<sound id="wp_kurz_919_bolt_pull" 	  path="wp_kurz_919_bolt_pull.ogg" 	  prefix="third"/>
 		<sound id="wp_kurz_919_bolt_release"  path="wp_kurz_919_bolt_release.ogg" prefix="first"/>
 		<sound id="wp_kurz_919_bolt_release"  path="wp_kurz_919_bolt_release.ogg" prefix="third"/>
 	</Sounds>	
 	
 	<Hooks directory="hooks">
 	<!--<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>
-		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
-		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>	-->	
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>-->	
+		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>	
 	</Hooks>
 	
 </table>
