@@ -111,7 +111,7 @@
 				<value_node value="wpn_fps_smg_kurz_919_ro_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_ch_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_hg_mp5k"/>
-				<value_node value="wpn_fps_smg_kurz_919_st_mp5k"/>
+				<value_node value="wpn_fps_smg_kurz_919_str_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_tg_sef"/>
 				<value_node value="wpn_fps_smg_kurz_919_m_curve_15"/>
 				
@@ -124,6 +124,7 @@
 				<value_node value="wpn_fps_smg_kurz_919_ro_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_ch_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_hg_mp5k"/>
+				<value_node value="wpn_fps_smg_kurz_919_str_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_tg_sef"/>
 				<value_node value="wpn_fps_smg_kurz_919_m_curve_15"/>
 				
