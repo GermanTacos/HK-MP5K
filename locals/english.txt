@@ -4,6 +4,8 @@
 	
 	"bm_w_kurz_919" : "MP5K",
 	
+	"bm_menu_barrel2"  	    	   : "Barrel",
+	"bm_menu_barrel2_plural"       : "Barrels",
 	"bm_menu_receiver"      	   : "Receiver",
 	"bm_menu_receiver_plural"      : "Receivers",
 	"bm_menu_trigger"      		   : "Grip",
@@ -15,8 +17,13 @@
 	"bm_menu_handguard"     	   : "Handguard",
 	"bm_menu_handguard_plural"     : "Handguards",
 	
+	"bm_wp_wpn_fps_smg_kurz_919_ba_mp5kn"    : "MP5KN Barrel",
+	
 	"bm_wp_wpn_fps_smg_kurz_919_hg_proto"    : "Prototype Foregrip",
 	"bm_wp_wpn_fps_smg_kurz_919_hg_sp5k"     : "SP5K Handguard",
+	
+	"bm_wp_wpn_fps_smg_kurz_919_st_pdw"      : "MP5K-PDW Stock",
+	"bm_wp_wpn_fps_smg_kurz_919_st_pdw"      : "MP5K-PDW Stock (Folded)",
 	
 	"bm_wp_wpn_fps_smg_kurz_919_tg_navy"     : "Navy Trigger Group",
 	

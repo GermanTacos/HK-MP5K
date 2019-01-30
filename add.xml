@@ -1,6 +1,6 @@
 <AddFiles directory="assets">
 
-	<!-- MP5 PTS -->
+	<!-- MP5K PTS -->
 
 	<texture		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/body_mp5k_df"/>
 	<texture		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/body_mp5k_cc"/>
@@ -42,6 +42,26 @@
 	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ch_mp5k_cc"/>
 	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ch_mp5k_cc_thq"/>
 	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k"/>
+	<model  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k"/>
+	<object 		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k"/>
+	<unit			 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k_cc_thq"/>
+	
+	<!-- MP5KN PTS -->
+
+	<cooked_physics  path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn"/>
+	<model  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn"/>
+	<object 		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn"/>
+	<unit			 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn_cc_thq"/>
+	
 	<!-- HANDGUARD PTS -->
 		
 	<cooked_physics  path="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_mp5k"/>
@@ -78,6 +98,30 @@
 	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_sp5k_thq"/>
 	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_sp5k_cc"/>
 	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_sp5k_cc_thq"/>
+	
+	<!-- STOCK PTS -->
+	
+	<texture		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/stock_pdw_df"/>
+	<texture 		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/stock_pdw_cc"/>
+	<texture 		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/stock_pdw_nm"/>
+
+	<cooked_physics  path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw"/>
+	<model  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw"/>
+	<object  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw"/>
+	<unit			 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_cc_thq"/>
+
+	<cooked_physics  path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold"/>
+	<model  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold"/>
+	<object  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold"/>
+	<unit			 path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_smg_kurz_919_stock_pts/wpn_fps_smg_kurz_919_st_pdw_fold_cc_thq"/>
 	
 	<!-- SHARED PTS -->
 	
