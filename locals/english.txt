@@ -23,7 +23,7 @@
 	"bm_wp_wpn_fps_smg_kurz_919_hg_sp5k"     : "SP5K Handguard",
 	
 	"bm_wp_wpn_fps_smg_kurz_919_st_pdw"      : "MP5K-PDW Stock",
-	"bm_wp_wpn_fps_smg_kurz_919_st_pdw"      : "MP5K-PDW Stock (Folded)",
+	"bm_wp_wpn_fps_smg_kurz_919_st_pdw_fold" : "MP5K-PDW Stock (Folded)",
 	
 	"bm_wp_wpn_fps_smg_kurz_919_tg_navy"     : "Navy Trigger Group",
 	
