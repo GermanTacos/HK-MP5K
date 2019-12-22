@@ -1,0 +1,18 @@
+<table>
+
+	<Sounds directory="assets\sounds">
+		<sound id="kurz_919_fire" path="kurz_919_fire.ogg" prefix="regular"/>
+		<sound id="kurz_919_fire" path="kurz_919_supp.ogg"  prefix="suppressed_a"/>
+		<sound id="kurz_919_fire" path="kurz_919_supp.ogg"  prefix="suppressed_b"/>
+		<sound id="kurz_919_fire" path="kurz_919_supp.ogg"  prefix="suppressed_c"/>
+		<sound id="wp_kurz_919_mag_slide_out" path="wp_kurz_919_mag_slide_out.ogg" prefix="first"/>
+		<sound id="wp_kurz_919_mag_slide_out" path="wp_kurz_919_mag_slide_out.ogg" prefix="third"/>
+		<sound id="wp_kurz_919_mag_slide_in"  path="wp_kurz_919_mag_slide_in.ogg" prefix="first"/>
+		<sound id="wp_kurz_919_mag_slide_in"  path="wp_kurz_919_mag_slide_in.ogg" prefix="third"/>
+		<sound id="wp_kurz_919_bolt_pull" 	  path="wp_kurz_919_bolt_pull.ogg" 	  prefix="first"/>
+		<sound id="wp_kurz_919_bolt_pull" 	  path="wp_kurz_919_bolt_pull.ogg" 	  prefix="third"/>
+		<sound id="wp_kurz_919_bolt_release"  path="wp_kurz_919_bolt_release.ogg" prefix="first"/>
+		<sound id="wp_kurz_919_bolt_release"  path="wp_kurz_919_bolt_release.ogg" prefix="third"/>
+	</Sounds>	
+
+</table>
