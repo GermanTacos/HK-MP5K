@@ -1,25 +1,23 @@
-Hooks:PostHook( WeaponFactoryTweakData, "init", "STG58modInit", function(self)
-	for _, part_id in pairs(self.wpn_fps_ass_fusil_762.uses_parts) do
-		if self.parts[part_id].type == "sight" then
-			self.parts.wpn_fps_ass_fusil_762_dc_sa58.override[part_id] = 	{a_obj="a_o_sa58"}
-		end
+Hooks:PostHook( WeaponFactoryTweakData, "init", "MP5KmodInit", function(self)
+	local vanilla_mp5ksight = {
+	"wpn_fps_upg_o_specter",
+	"wpn_fps_upg_o_aimpoint",
+	"wpn_fps_upg_o_aimpoint_2",
+	"wpn_fps_upg_o_docter",
+	"wpn_fps_upg_o_eotech",
+	"wpn_fps_upg_o_t1micro",
+	"wpn_fps_upg_o_cmore",
+	"wpn_fps_upg_o_acog",
+	"wpn_fps_upg_o_cs",
+	"wpn_fps_upg_o_eotech_xps",
+	"wpn_fps_upg_o_reflex",
+	"wpn_fps_upg_o_rx01",
+	"wpn_fps_upg_o_rx30",
+	"wpn_fps_upg_o_spot"
+	}
+
+	--- Gun ---
+	for id, o_id in pairs(vanilla_mp5ksight) do
+		self.wpn_fps_smg_kurz_919.adds[o_id] = {"wpn_fps_smg_kurz_919_sm_claw"}
 	end
-	
-	self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762 = {translation = Vector3(0, 5, -2.85)}
-	self.parts.wpn_fps_upg_o_aimpoint.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_docter.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_eotech.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_t1micro.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_aimpoint_2.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_eotech_xps.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_rx01.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_rx30.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_cmore.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_cs.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_specter.stance_mod.wpn_fps_ass_fusil_762)
-	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_fusil_762 = {translation = Vector3(0, 2, -2.85)}
-	self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_scar)
-	self.parts.wpn_fps_upg_o_spot.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_spot.stance_mod.wpn_fps_ass_scar)
-	self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_scar)
-	self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_fusil_762 = deep_clone(self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_fusil_762)
 end )

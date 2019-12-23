@@ -1,6 +1,6 @@
 Hooks:PostHook( WeaponTweakData, "init", "MP5KmodInit", function(self)
 
-if ( self.kurz_919 ) then
+if self.SetupAttachmentPoint then
 --- Base stuff ---	
 	self:SetupAttachmentPoint("kurz_919", {
 		name = "a_ns", 
@@ -23,7 +23,7 @@ if ( self.kurz_919 ) then
 	self:SetupAttachmentPoint("kurz_919", {
 		name = "a_o", 
         base_a_obj = "a_o", 
-        position = Vector3( 0, 0, 0 ), 
+        position = Vector3( 0, -2, 2.6 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("kurz_919", {

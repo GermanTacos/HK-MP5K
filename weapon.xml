@@ -22,6 +22,9 @@
 				<value_node value="barrel_ext"/>
 			</optional_types>
 			
+			<adds/>
+			<override/>
+			
 			<default_blueprint>
 			
 				<value_node value="wpn_fps_smg_kurz_919_re_mp5k"/>
@@ -33,6 +36,8 @@
 				<value_node value="wpn_fps_smg_kurz_919_str_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_tg_sef"/>
 				<value_node value="wpn_fps_smg_kurz_919_m_curve_15"/>
+				<value_node value="wpn_fps_smg_kurz_919_ba_dummy"/>
+				<value_node value="wpn_fps_smg_kurz_919_o_dummy"/>
 				
 			</default_blueprint>
 			
@@ -47,6 +52,8 @@
 				<value_node value="wpn_fps_smg_kurz_919_str_mp5k"/>
 				<value_node value="wpn_fps_smg_kurz_919_tg_sef"/>
 				<value_node value="wpn_fps_smg_kurz_919_m_curve_15"/>
+				<value_node value="wpn_fps_smg_kurz_919_ba_dummy"/>
+				<value_node value="wpn_fps_smg_kurz_919_o_dummy"/>
 				
 				<value_node value="wpn_fps_smg_kurz_919_ba_mp5kn"/>
 				
@@ -100,9 +107,10 @@
 		</factory>
 		<stance>
 			<steelsight>
-				<shoulders rotation="0.00174533 7.61543e-007 -0.000436332 -0.999998" translation="-7.89 13.459 0.7"/>
+				<shoulders rotation="-0.000872664 -3.80772e-007 -0.000436332 -1" translation="-7.89 13.459 -0.35"/>
 			</steelsight>
 		</stance>
+
 	</Weapon>
 
 </table>

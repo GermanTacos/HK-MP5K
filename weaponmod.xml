@@ -4,6 +4,8 @@
 
 	<WeaponMod id="wpn_fps_smg_kurz_919_re_mp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="receiver"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_re_mp5k" 	  	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
+	<WeaponMod id="wpn_fps_smg_kurz_919_ba_dummy"    based_on="wpn_fps_smg_schakal_b_standard" 	type="barrel"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ba_dummy" 	  	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
 	<WeaponMod id="wpn_fps_smg_kurz_919_ba_mp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="barrel2"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ba_mp5k" 	  	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_tr_mp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="trigger"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_tr_mp5k"		 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
@@ -18,8 +20,16 @@
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_str_mp5k"  	 based_on="wpn_fps_smg_mp5_body_mp5" 	    type="stock"         unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_str_mp5k" 	     texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
-	<WeaponMod id="wpn_fps_smg_kurz_919_m_curve_15"  based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_curve_15"   	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_smg_kurz_919_m_curve_15"  based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_curve_15"   	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<bullet_objects prefix="g_bullet_" amount="0"/>
+	</WeaponMod>
 	
+	<WeaponMod id="wpn_fps_smg_kurz_919_o_dummy" based_on="wpn_fps_smg_mp5_body_mp5" type="sight" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" is_a_unlockable="false">
+		<stance_mod>
+			<wpn_fps_smg_kurz_919 rotation="0.00174533 7.61543e-007 -0.000436332 -0.999998" translation="0 -5 1"/>
+		</stance_mod>
+	</WeaponMod>
+
 	<!-- MP5KN -->
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_ba_mp5kn"    based_on="wpn_fps_smg_mp5_body_mp5" 	    type="barrel2"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5kn_pts/wpn_fps_smg_kurz_919_ba_mp5kn"      texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -61,16 +71,19 @@
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_m_curve_30"  based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_curve_30"   	 texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo_new="15"/>
+		<bullet_objects prefix="g_bullet_" amount="0"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_m_waffle_30" based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_waffle_30"     texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo_new="15"/>
+		<bullet_objects prefix="g_bullet_" amount="0"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_m_waffle_15" based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_waffle_15"     texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats/>
+		<bullet_objects prefix="g_bullet_" amount="0"/>
 		<pcs/>
 	</WeaponMod>
 	

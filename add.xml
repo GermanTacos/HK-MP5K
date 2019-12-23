@@ -6,6 +6,8 @@
 	<texture		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/body_mp5k_cc"/>
 	<texture 		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/body_mp5k_nm"/>
 
+	<unit_obj		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ba_dummy"/>
+
 	<cooked_physics  path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_re_mp5k"/>
 	<model  		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_re_mp5k"/>
 	<object 		 path="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_re_mp5k"/>
