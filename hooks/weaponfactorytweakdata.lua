@@ -20,4 +20,13 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "MP5KmodInit", function(self)
 	for id, o_id in pairs(vanilla_mp5ksight) do
 		self.wpn_fps_smg_kurz_919.adds[o_id] = {"wpn_fps_smg_kurz_919_sm_claw"}
 	end
+	
+	--- Vanilla sights ---
+	for id, o_id in pairs(vanilla_mp5ksight) do
+		if self.parts[o_id].stance_mod.wpn_fps_smg_schakal then
+			self.parts[o_id].stance_mod.wpn_fps_smg_kurz_919 = deep_clone(self.parts[o_id].stance_mod.wpn_fps_smg_schakal)
+		else
+			log("[MP5K] [ERROR] WHO THE FUCK MESSED WITH SIGHT STANCES THIS TIME!? " .. o_id)
+		end
+	end
 end )

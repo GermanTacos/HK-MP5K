@@ -5,13 +5,13 @@ if self.SetupAttachmentPoint then
 	self:SetupAttachmentPoint("kurz_919", {
 		name = "a_ns", 
         base_a_obj = "a_ns", 
-        position = Vector3( 0, -5.5, -0.4 ), -- -16
+        position = Vector3( 0, -6.3, 1.7 ), -- -16
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("kurz_919", {
 		name = "a_fl", 
         base_a_obj = "a_fl", 
-        position = Vector3( 0.5, 0, 0 ), 
+        position = Vector3( 0.2, -2, 0.6 ), 
         rotation = Rotation( 0, 0, 0 ) 
 	})
 	self:SetupAttachmentPoint("kurz_919", {

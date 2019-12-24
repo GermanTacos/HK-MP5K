@@ -6,7 +6,13 @@
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_ba_dummy"    based_on="wpn_fps_smg_schakal_b_standard" 	type="barrel"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ba_dummy" 	  	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
-	<WeaponMod id="wpn_fps_smg_kurz_919_ba_mp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="barrel2"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ba_mp5k" 	  	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	<WeaponMod id="wpn_fps_smg_kurz_919_ba_mp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="barrel2"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_ba_mp5k" 	  	 texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<forbids>
+			<value_node value="wpn_fps_upg_ns_ass_smg_large"/>
+			<value_node value="wpn_fps_upg_ns_ass_smg_tank"/>
+			<value_node value="wpn_fps_upg_ns_ass_pbs1"/>
+		</forbids>
+	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_tr_mp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="trigger"       unit="units/mods/weapons/wpn_fps_smg_kurz_919_mp5k_pts/wpn_fps_smg_kurz_919_tr_mp5k"		 texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
 	
@@ -46,6 +52,15 @@
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_hg_sp5k"     based_on="wpn_fps_smg_mp5_body_mp5" 	    type="handguard"     unit="units/mods/weapons/wpn_fps_smg_kurz_919_handguard_pts/wpn_fps_smg_kurz_919_hg_sp5k"   texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats  recoil="-2" concealment="2"/>
+		<weapon_hold_override bm_w_kurz_919="mp5"/>
+		<stance_mod>
+			<wpn_fps_smg_kurz_919 rotation="-0.00610862 2.66539e-006 0.000436324 -0.999981" translation="-2.36 -14 -0.1"/>
+		</stance_mod>
+		<forbids>
+			<value_node value="wpn_fps_upg_ns_ass_smg_large"/>
+			<value_node value="wpn_fps_upg_ns_ass_smg_tank"/>
+			<value_node value="wpn_fps_upg_ns_ass_pbs1"/>
+		</forbids>
 		<pcs/>
 	</WeaponMod>
 	
