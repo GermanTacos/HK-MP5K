@@ -68,6 +68,8 @@
 	
 	<texture 		 path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/kurz_919"/>
 	
+	<texture 		 path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_smg_kurz_919_ba_mp5kn"/>
+	
 	<texture 		 path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_smg_kurz_919_hg_proto"/>
 	<texture 		 path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_smg_kurz_919_hg_sp5k"/>
 	
