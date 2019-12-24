@@ -28,6 +28,44 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "MP5KmodInit", function(self)
 	"wpn_fps_upg_ass_ns_surefire",
 	"wpn_fps_upg_ass_ns_battle"
 }
+
+--- CAFCW aka better later then never also holy shit this actually works ---
+if attach_tables then
+	for _, md_id in pairs(attach_tables.Barrel_Extensions) do
+		if self.parts[md_id] then
+			table.insert(all_mp5k_ext, md_id)
+		end
+	end
+	for _, md_id in pairs(attach_tables.Suppressors) do
+		if self.parts[md_id] then
+			table.insert(all_mp5k_ext, md_id)
+		end
+	end
+	--[[
+	for _, fl_id in pairs(attach_tables.Gadgets) do
+		if self.parts[fl_id] then
+			table.insert(all_akmfl, fl_id)
+		end
+	end
+	for _, o_id in pairs(attach_tables.ACOG) do
+		if self.parts[o_id] then
+			table.insert(vanilla_akmsight, o_id)
+		end
+	end
+	for _, o_id in pairs(attach_tables.Custom) do
+		if self.parts[o_id] then
+			table.insert(vanilla_akmsight, o_id)
+		end
+	end
+	for _, o_id in pairs(attach_tables.Specter) do
+		if self.parts[o_id] then
+			table.insert(vanilla_akmsight, o_id)
+		end
+	end
+	]]
+end
+
+
 	--- Gun ---
 	for id, o_id in pairs(vanilla_mp5ksight) do
 		self.wpn_fps_smg_kurz_919.adds[o_id] = {"wpn_fps_smg_kurz_919_sm_claw"}
