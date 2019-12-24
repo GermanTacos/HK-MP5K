@@ -2,7 +2,7 @@
 
 	<Localization directory="locals" default="english.txt"/>
 	
-<!--<AssetUpdates id="xxxxx" name="asset_updates" folder_name="MP5A3" version="1.0" provider="modworkshop"/>-->
+	<AssetUpdates id="26236" name="asset_updates" folder_name="HK-MP5K" version="1.0" provider="modworkshop"/>
 
 	<GlobalValue id="kurz_919" color="Color(0.8, 0.2, 0.8)"/>
 
