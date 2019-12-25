@@ -86,13 +86,13 @@
 	<!-- MAGAZINES -->
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_m_curve_30"  based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_curve_30"   	 texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="15"/>
+		<override_weapon CLIP_AMMO_MAX="15"/>
 		<bullet_objects prefix="g_bullet_" amount="0"/>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_smg_kurz_919_m_waffle_30" based_on="wpn_fps_smg_schakal_m_standard"  type="magazine"      unit="units/mods/weapons/wpn_fps_smg_kurz_919_mag_pts/wpn_fps_smg_kurz_919_m_waffle_30"     texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
-		<stats extra_ammo_new="15"/>
+		<override_weapon CLIP_AMMO_MAX="15"/>
 		<bullet_objects prefix="g_bullet_" amount="0"/>
 		<pcs/>
 	</WeaponMod>
